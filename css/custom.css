@@ -85,3 +85,16 @@
     #gallery {
         background: white !important;
     }
+    .gallery-item {
+        padding: 10px;
+    }
+    .open-gallery {
+        -webkit-box-shadow: 1px 3px 17px -5px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 3px 17px -5px rgba(0,0,0,0.75);
+        box-shadow: 1px 3px 17px -5px rgba(0,0,0,0.75);
+    }
+    .gallery-header{
+        background: url("../images/custom/gallery.png") no-repeat center !important;
+        height: 40vh !important;
+        margin: auto;
+    }
