@@ -39,26 +39,33 @@
         height: 80vh;
         margin: auto;
     }
-.menu-header{
-        background: url("../images/custom/menus.png") no-repeat center !important;
-        height: 40vh !important;
+    .menu-header{
+        background: white !important;
+        color: black !important;
+        font-weight: 100 !important;
+        height: 30vh !important;
         margin: auto;
     }
 
     .sub-menu-title {
-        color: white;  
-        font-family: 'Open Sans', sans-serif !important;
-        font-size: 60px;
-        margin-top: 7%
+        background: white !important;
+        color: black !important;
+        height: 30vh !important;
+        margin: auto;
+        font-weight: 100 !important;
     }
     .vendor-header{
-        background: url("../images/custom/vendors.png") no-repeat center !important;
-        height: 40vh !important;
+        background: white !important;
+        color: black !important;
+        height: 30vh !important;
         margin: auto;
+        font-weight: 100 !important;
     }
     .wedding-header{
-        background: url("../images/custom/wedding_promo.png") no-repeat center !important;
-        height: 40vh !important;
+        background: white !important;
+        color: black !important;
+        height: 30vh !important;
+        font-weight: 100 !important;
         margin: auto;
     }
 
@@ -76,10 +83,17 @@
             -moz-box-shadow: 1px 3px 17px -5px rgba(0,0,0,0.75);
             box-shadow: 1px 3px 17px -5px rgba(0,0,0,0.75);
         }
+        .index-header {
+            height: 400px !important;
+        }
+        #image-header img {
+            padding-top: 23px;
+        }
     }
     .contact-header{
-        background: url("../images/custom/contact.png") no-repeat center !important;
-        height: 40vh !important;
+        background: white !important;
+        color: black !important;
+        height: 30vh !important;
         margin: auto;
     }
     #gallery {
@@ -94,7 +108,12 @@
         box-shadow: 1px 3px 17px -5px rgba(0,0,0,0.75);
     }
     .gallery-header{
-        background: url("../images/custom/gallery.png") no-repeat center !important;
-        height: 40vh !important;
+        background: white !important;
+        color: black !important;
+        height: 30vh !important;
+        font-weight: 100 !important;
         margin: auto;
+    }
+    .image-header {
+        background: black !important;
     }
